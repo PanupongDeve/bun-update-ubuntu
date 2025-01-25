@@ -9,5 +9,8 @@ export async function updateJS() {
     // await $`nvm install-latest-npm`;
 
     console.log('------------------- update BUN -------------------')
-    await $`bun upgrade`;
+    // await $`bun upgrade`;
+    await $` curl -fsSL https://bun.sh/install | bash`
+
+   
 }
